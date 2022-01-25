@@ -1,6 +1,10 @@
 package lesson2;
 
+<<<<<<< HEAD
 /**ё
+=======
+/**
+>>>>>>> origin/master
  * Created by Aleksandr Gladkov [Anticisco]
  * Date: 15.01.2022
  */
