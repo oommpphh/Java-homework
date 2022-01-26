@@ -1,18 +1,25 @@
 package lesson2;
 
+import java.util.Arrays;
+
 public class homework2 {
 
     public static void main(String[] args) {
 
-        System.out.println("Задание 1 " + numbers1(2, 19));
+        System.out.println("Задание 1: ");
+        System.out.println(numbers1(2, 19));
+        System.out.println("Задание 2: ");
         method2(0);
-        System.out.println("Задание 3 " + numbers2( 2));
+        System.out.println("Задание 3: ");
+        System.out.println(numbers2( 2));
+        System.out.println("Задание 4: ");
         method3("текст",9);
 
     }
 
     public static boolean numbers1(int one, int two) {
-        return (one + two <= 20) && (one + two >= 10);
+        int sum = one + two;
+        return sum >= 10 && sum <= 20;
     }
 
     public static void method2(int numeric) {
@@ -24,7 +31,7 @@ public class homework2 {
     }
 
     public static boolean numbers2(int three) {
-        return three <= 0;
+        return three < 0;
     }
 
     public static void method3(String value, int four) {
